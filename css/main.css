@@ -309,6 +309,102 @@ header .logo {
 	color: #9c9c9c;
 }
 
+/* product page */
+
+main,
+aside {
+	background-color: #ffffff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.product-title {
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.product-description span{
+	font-weight: 300;
+}
+
+.product-page .button {
+	background-color: #000;
+}
+
+.product-price {
+	border-top: 1px solid #000;
+	font-size: 3rem;
+}
+
+/* light side pages */
+
+.light-page .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color:#008CBA;
+}
+
+.light-page .product-price {
+	color: #008CBA;
+}
+
+.light-page .breadcrumbs {
+	border: none;
+	background: none;
+}
+
+.light-page .breadcrumbs > * a,
+.light-page .breadcrumbs > *:before {
+	color: #008CBA;
+}
+
+/* dark side pages */
+
+.dark-page .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #a50000;
+}
+
+.dark-page .product-price {
+	color: #a50000;
+}
+
+.dark-page .breadcrumbs {
+	border: none;
+	background: none;
+}
+
+.dark-page .breadcrumbs > * a,
+.dark-page .breadcrumbs > *:before {
+	color: #a50000;
+}
+
+/* no side pages */
+
+.nosidepage .top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #9c9c9c;
+}
+
+.nosidepage .product-price {
+	color: #9c9c9c;
+}
+
+.nosidepage .breadcrumbs {
+	border: none;
+	background: none;
+}
+
+.nosidepage .breadcrumbs > * a,
+.nosidepage .breadcrumbs > *:before {
+	color: #9c9c9c;
+}
+
+
+aside {
+	padding: 0 0 2rem 0;
+}
+
+aside h1 {
+	font-family: 'Alfa Slab One', cursive;
+	margin-top: 2rem;
+}
+
 /* tags */
 
 .tag {
@@ -410,6 +506,46 @@ ul.pagination li a, ul.pagination li button {
 	color: #ffffff;
 }
 
+.cart h1 {
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.cart h2 {
+		font-family: 'Oswald', sans-serif;
+}
+
+.cart .panel {
+	border: none;
+}
+
+.cart button.disabled, button[disabled], .button.disabled, .button[disabled] {
+	background-color: #000;
+}
+
+.cart .galactictrends {
+	background: #ffffff;
+	background-image: url(../img/xwingpatternoutline.png);
+	z-index: 5;
+}
+
+.cart .galactictrends .panel {
+	border: none;
+}
+
+.cart .galactictrends h4 {
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: .5rem;
+}
+
+.cart .galactictrends h5 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+.cart .galactictrends img {
+	margin-bottom: .5rem;
+}
+
 /* confirmation */
 
 .confirmation {
@@ -487,112 +623,6 @@ ul.pagination li a, ul.pagination li button {
 	opacity: .8;
 }
 
-
-/* product page */
-
-main,
-aside {
-	background-color: #ffffff;
-	width: 90%;
-	margin: 0 auto;
-	/*background-image: url(../img/luke-02.png);*/
-}
-
-.product-title {
-	font-family: 'Alfa Slab One', cursive;
-}
-
-.product-description span{
-	font-weight: 300;
-}
-
-/*.product-image {
-	border-left: 12px solid #000;
-}*/
-
-.product-page .button {
-	background-color: #000;
-}
-
-.product-price {
-	border-top: 1px solid #000;
-	font-size: 3rem;
-}
-
-/* light side pages */
-
-.light-page .top-bar-section li.active:not(.has-form) a:not(.button) {
-	background-color:#008CBA;
-}
-
-.light-page .product-price {
-	color: #008CBA;
-}
-
-.light-page .breadcrumbs {
-	border: none;
-	background: none;
-}
-
-.light-page .breadcrumbs > * a,
-.light-page .breadcrumbs > *:before {
-	color: #008CBA;
-}
-
-/* dark side pages */
-
-.dark-page .top-bar-section li.active:not(.has-form) a:not(.button) {
-	background-color: #a50000;
-}
-
-.dark-page .product-price {
-	color: #a50000;
-}
-
-.dark-page .breadcrumbs {
-	border: none;
-	background: none;
-}
-
-.dark-page .breadcrumbs > * a,
-.dark-page .breadcrumbs > *:before {
-	color: #a50000;
-}
-
-/* no side pages */
-
-.nosidepage .top-bar-section li.active:not(.has-form) a:not(.button) {
-	background-color: #9c9c9c;
-}
-
-.nosidepage .product-price {
-	color: #9c9c9c;
-}
-
-.nosidepage .breadcrumbs {
-	border: none;
-	background: none;
-}
-
-.nosidepage .breadcrumbs > * a,
-.nosidepage .breadcrumbs > *:before {
-	color: #9c9c9c;
-}
-
-
-aside {
-	padding: 0 0 2rem 0;
-}
-
-aside h1 {
-	font-family: 'Alfa Slab One', cursive;
-	margin-top: 2rem;
-}
-
-/*
-aside img {
-	border-left: 6px solid #000;
-}*/
 
 /* footer */
 
