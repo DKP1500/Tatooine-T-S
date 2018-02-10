@@ -69,12 +69,6 @@ header .logo {
 	color: #ffffff;
 }
 
-.galactictrends {
-	background: #ffffff;
-	background-image: url(../img/xwingpatternoutline.png);
-	z-index: 5;
-}
-
 .homepage h2 {
 	font-family: 'Alfa Slab One', cursive;
 	padding: 3rem 0;
@@ -114,6 +108,12 @@ header .logo {
 }
 
 /* homepage trends */
+
+.galactictrends {
+	background: #ffffff;
+	background-image: url(../img/xwingpatternoutline.png);
+	z-index: 5;
+}
 
 .homepage .galactictrends .panel {
 	border: none;
@@ -228,7 +228,7 @@ header .logo {
 	font-weight: 300;
 }
 
-/* light side */
+/* light side (category page) */
 
 .lightside {
 	background-color: #ffffff;
@@ -251,7 +251,7 @@ header .logo {
 	color: #008CBA;
 }
 
-/* dark side */
+/* dark side (category page) */
 
 .darkside .top-bar-section li.active:not(.has-form) a:not(.button) {
 	background: #a50000;
@@ -282,7 +282,7 @@ header .logo {
 	color: #a50000;
 }
 
-/* no side */
+/* no side (category page) */
 
 .noside .top-bar-section li.active:not(.has-form) a:not(.button) {
 	background: #9c9c9c;
@@ -346,14 +346,6 @@ header .logo {
 
 } 
 
-/*.luke {
-	background-image: url(../img/luke-02.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	z-index: 2;
-}
-*/
 /* shop page */
 
 .shop .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -416,6 +408,83 @@ ul.pagination li a, ul.pagination li button {
 
 .cart .breadcrumbs > * a {
 	color: #ffffff;
+}
+
+/* confirmation */
+
+.confirmation {
+	background-image: url(../img/space.jpeg);
+}
+
+.confirmation .product-grid {
+	padding: 2rem 0;
+	background-color: transparent;
+}
+
+.confirmation h1 {
+	color: #ffffff;
+	line-height: 3rem;
+}
+
+.confirmation p {
+	color: #d3d3d3;
+}
+
+.confirmation .pickanother h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2.5rem;
+
+}
+.pickanother{
+	background-image: url(../img/space.jpeg);
+	padding: 3rem 0;
+}
+
+.pickanother .lightside,
+.pickanother .darkside,
+.pickanother .noside {
+	padding: 2rem 0;
+	margin: 2rem 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3125rem;
+}
+
+.pickanother .lightside {
+	border: 5px solid #008CBA;
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.pickanother .lightside:hover {
+	background-color: #008CBA;
+	background-image: url(../img/rebelpattern-04.png);
+	opacity: .8;
+}
+
+.pickanother .darkside {
+	border: 5px solid #a50000;
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.pickanother .darkside:hover {
+	background-color: #a50000;
+	background-image: url(../img/empirepattern-05.png);
+	opacity: .8;
+}
+
+.pickanother .noside {
+	border: 5px solid #d3d3d3;
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.pickanother .noside:hover {
+	background-color: #d3d3d3;
+	background-image: url(../img/nosidepattern-06.png);
+	opacity: .8;
 }
 
 
