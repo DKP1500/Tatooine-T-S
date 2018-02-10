@@ -546,6 +546,20 @@ ul.pagination li a, ul.pagination li button {
 	margin-bottom: .5rem;
 }
 
+/* order */
+
+.order main {
+	padding: 2rem 0 4rem 0;
+}
+
+.order h1 {
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.order button.radius, .button.radius{
+	background-color: #000;
+}
+
 /* confirmation */
 
 .confirmation {
