@@ -511,7 +511,7 @@ ul.pagination li a, ul.pagination li button {
 }
 
 .cart h2 {
-		font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .cart .panel {
@@ -522,6 +522,27 @@ ul.pagination li a, ul.pagination li button {
 	background-color: #000;
 }
 
+.cart .product-listing.panel {
+	margin-bottom: 3rem;
+}
+
+.cart .product-listing.panel h4{
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	font-size: 1.7rem;
+}
+
+.cart .product-listing.panel a{
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+}
+
+.cart .product-listing.panel button.tiny, .button.tiny{
+	border: 3px solid #9c9c9c;
+	background-color: transparent;
+	color: #9c9c9c;
+}
+
 .cart .galactictrends {
 	background: #ffffff;
 	background-image: url(../img/xwingpatternoutline.png);
@@ -530,6 +551,14 @@ ul.pagination li a, ul.pagination li button {
 
 .cart .galactictrends .panel {
 	border: none;
+}
+
+.cart .galactictrends {
+	background-image: none;
+}
+
+.cart .galactictrends h2 {
+	padding: .5rem 0;
 }
 
 .cart .galactictrends h4 {
@@ -567,7 +596,7 @@ ul.pagination li a, ul.pagination li button {
 }
 
 .confirmation .product-grid {
-	padding: 2rem 0;
+	padding: 3rem 0;
 	background-color: transparent;
 }
 
@@ -580,14 +609,15 @@ ul.pagination li a, ul.pagination li button {
 	color: #d3d3d3;
 }
 
+.pickanother{
+	background-image: url(../img/space.jpeg);
+	padding: 4rem 0;
+}
+
 .confirmation .pickanother h1 {
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 2.5rem;
 
-}
-.pickanother{
-	background-image: url(../img/space.jpeg);
-	padding: 3rem 0;
 }
 
 .pickanother .lightside,
