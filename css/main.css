@@ -355,6 +355,10 @@ aside {
 	border: none;
 }
 
+.product-page aside img {
+	margin-bottom: .5rem;
+}
+
 /* light side pages */
 
 .light-page .top-bar-section li.active:not(.has-form) a:not(.button) {
