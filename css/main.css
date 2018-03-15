@@ -623,6 +623,7 @@ ul.pagination li a, ul.pagination li button {
 .confirmation h1 {
 	color: #ffffff;
 	line-height: 3rem;
+	font-family: 'Oswald', sans-serif;
 }
 
 .confirmation p {
